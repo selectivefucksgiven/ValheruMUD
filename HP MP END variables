@@ -1,0 +1,9 @@
+// this trigger takes your promptline and turns certain values into variables (you may want to edit this to fit you prompt)
+TRIGGER TYPE = PERL REGEX (BLUE)
+TRIGGER PATTERN = H:(\d+) / M:(\d+) / E:(\d+) /
+
+
+// below is the code in Lua needed to take this Regular Expression (Regex) info and turn it into a global lua variable
+HP = tonumber(matches[2])
+MP = tonumber(matches[3])
+END = tonumber(matches[4])
