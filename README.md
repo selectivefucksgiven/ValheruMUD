@@ -4,6 +4,10 @@ Hello, this is a compilation of MUDLET triggers for VALHERU MUD.
 
 Any questions can be e-mailed to derek.feng8@gmail.com
 
+**TO USE THIS TRIGGER SET:**
+1) Download the XML file
+2) Go to package manager in Mudlet, and install the XML file
+
 **UPDATED 20190524**
 
 Included Trigger Classes:
